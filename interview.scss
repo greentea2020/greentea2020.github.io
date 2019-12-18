@@ -269,6 +269,9 @@ hr.style1 {
     @media (max-width:576px){
         width: 75px;
     }
+    @media (max-width:375px){
+    height: 10px;
+  }
     @media (max-width:320px){
   display: none;
     }
