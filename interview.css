@@ -390,6 +390,12 @@ hr.style1 {
   margin-left: 65px;
 }
 
+@media (max-width: 375px) {
+  #pag03 .work {
+    margin-left: 0;
+  }
+}
+
 @media (max-width: 320px) {
   #pag03 .work {
     margin-left: 10%;
@@ -588,9 +594,5 @@ hr.style1 {
 
 #pag06 .pit .b1 img {
   width: 100%;
-}
-
-#pag06 .pit .b1 .mb {
-  margin-bottom: 500px;
 }
 /*# sourceMappingURL=interview.css.map */

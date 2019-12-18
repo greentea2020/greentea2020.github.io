@@ -263,6 +263,7 @@ hr.style1 {
     font-family: "微軟正黑體";
     font-weight: bolder;
     letter-spacing: 3px;
+   
   }
   .img3 {
     width: 30px;
@@ -270,7 +271,7 @@ hr.style1 {
         width: 75px;
     }
     @media (max-width:375px){
-    height: 10px;
+      
   }
     @media (max-width:320px){
   display: none;
@@ -282,6 +283,9 @@ hr.style1 {
   .work {
     display: flex;
     margin-left: 65px;
+    @media (max-width:375px){
+      margin-left: 0;
+        }
     @media (max-width:320px){
         margin-left: 10%;
           }
