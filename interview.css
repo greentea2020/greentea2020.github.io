@@ -373,6 +373,12 @@ hr.style1 {
   }
 }
 
+@media (max-width: 375px) {
+  #pag03 .img3 {
+    width: 160px;
+  }
+}
+
 @media (max-width: 320px) {
   #pag03 .img3 {
     display: none;
