@@ -367,9 +367,21 @@ hr.style1 {
   width: 30px;
 }
 
+@media (max-width: 768px) {
+  #pag03 .img3 {
+    width: 38px;
+  }
+}
+
 @media (max-width: 576px) {
   #pag03 .img3 {
-    width: 75px;
+    width: 63px;
+  }
+}
+
+@media (max-width: 414px) {
+  #pag03 .img3 {
+    width: 125px;
   }
 }
 
@@ -394,6 +406,18 @@ hr.style1 {
   display: -ms-flexbox;
   display: flex;
   margin-left: 65px;
+}
+
+@media (max-width: 768px) {
+  #pag03 .work {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  #pag03 .work {
+    margin-left: 0;
+  }
 }
 
 @media (max-width: 375px) {

@@ -267,9 +267,15 @@ hr.style1 {
   }
   .img3 {
     width: 30px;
+    @media (max-width:768px){
+      width: 38px;
+  }
     @media (max-width:576px){
-        width: 75px;
+        width: 63px;
     }
+    @media (max-width:414px){
+      width: 125px;
+  }
     @media (max-width:375px){
       width: 160px;
    
@@ -284,6 +290,12 @@ hr.style1 {
   .work {
     display: flex;
     margin-left: 65px;
+    @media (max-width:768px){
+      margin-left: 0;
+    }
+    @media (max-width:414px){
+      margin-left: 0;
+        }
     @media (max-width:375px){
       margin-left: 0;
         }
