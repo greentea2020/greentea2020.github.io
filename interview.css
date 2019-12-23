@@ -131,6 +131,12 @@ hr.style1 {
   margin-bottom: 10px;
 }
 
+@media (max-width: 1024px) {
+  #pag02 .allskill {
+    margin-left: 70px;
+  }
+}
+
 @media (max-width: 991px) {
   #pag02 .allskill {
     display: unset;
@@ -169,6 +175,12 @@ hr.style1 {
   border: 0px;
   height: 2px;
   background: #a3a3a3;
+}
+
+@media (max-width: 1024px) {
+  #pag02 .allskill .skill1 hr {
+    width: 110%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -217,7 +229,7 @@ hr.style1 {
   margin: 74px 250px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
   #pag02 .allskill .skill2 {
     margin: 74px 80px;
   }
