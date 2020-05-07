@@ -1,492 +1,449 @@
 body {
   margin: 0;
+  padding: 0;
 }
 
 html {
   scroll-behavior: smooth;
 }
-#paf01 {
-  @media (max-width:991px){
-    margin-bottom:5% ;
-  }
-  @media (max-width:576px){
-    margin-bottom:10% ;
-  }
-  @media (max-width:320px){
-   
-    margin-bottom:10% ;
+
+.font-1 {
+  font-size: 36px;
+  font-family: "微軟正黑體";
+
+  letter-spacing: 3px;
 }
-      .bighead {
-        width: 300px;
-        height: 300px;
-        border: 1px solid rgb(173, 173, 173);
-        border-radius: 50%;
-        background-image: url("./img/06.jpg");
-        background-size: cover;
-        background-position: center;
-        margin: auto;
 
-        margin-top: 100px;
-      }
+.allinfo {
 
-      .name {
-        padding-top: 50px;
-        font-size: 50px;
-        font-family: "微軟正黑體";
-        font-weight: bolder;
-        letter-spacing: 10px;
+  padding-top: 5%;
 
-        text-align: center;
-      }
+  .bighead {
+      width: 300px;
+      height: 300px;
+      border: 1px solid rgb(173, 173, 173);
+      border-radius: 50%;
+      background-image: url("img/photo.jpg");
+      background-size: cover;
+      background-position: center;
+      margin: auto;
 
-      .iconinfo {
-        padding: 20px 0;
-        justify-content: center;
-        @media (max-width:576px) {
-            margin-left:   auto ;
-        }
-        .fb {
+  }
+
+  .name {
+      padding-top: 50px;
+      font-size: 50px;
+      font-family: "微軟正黑體";
+      font-weight: 900;
+      letter-spacing: 10px;
+      text-align: center;
+  }
+
+  .iconinfo {
+      padding: 20px 0;
+      justify-content: center;
+
+      .fb {
           width: 50px;
 
           img {
-            width: 100%;
+              width: 100%;
           }
-        }
+      }
 
-        .github {
+      .github {
           cursor: pointer;
           margin-left: 30px;
           width: 50px;
 
           img {
-            width: 100%;
+              width: 100%;
           }
-        }
+      }
+  }
 
+  .info {
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 24px;
+      font-family: "微軟正黑體";
+      font-weight: bolder;
+  }
 
-      }
-      .info {
-          margin-bottom:30px ;
-     text-align: center;
-        font-size: 24px;
-        font-family: "微軟正黑體";
-        font-weight: bolder;
-        @media (max-width:576px) {
-          padding:0;
-          
-          
-        }
-      }
+  .info::after {
+      padding: 0 10px;
+      content: "a2856431@gmail.com";
+      color: rgb(133, 192, 45);
+  }
 
-      .info::after {
-        padding: 0 10px;
-        content: "a2856431@gmail.com";
-        color: rgb(133, 192, 45);
-      }
-      .info2 {
-        text-align: center;
-        font-family: "微軟正黑體";
-        letter-spacing: 3px;
-        @media (max-width:320px) {
-          margin-bottom: 20px;
-        }
-      }
-    
-  
+  .info2 {
+      text-align: center;
+      font-family: "微軟正黑體";
+      letter-spacing: 3px;
+  }
+
 }
+
+// .p01heline{
+//     width: 61%;
+//     border: 0px;
+//     height: 2px;
+//     background: rgb(163, 163, 163); 
+//     margin: auto;
+// }
 hr.style1 {
-  margin-bottom: 50px;
   width: 90%;
   border: 0px;
   height: 2px;
   background: rgb(163, 163, 163);
-  @media (max-width:320px) {margin: 15px;}
 }
+
+
 
 #pag02 {
-  .allskill {
-    display: flex;
-    margin-left: 90px;
-    margin-bottom: 10px;
-    @media (max-width:1024px){
-      margin-left: 70px;
-    }
-    @media (max-width:991px){
+  margin-bottom: 5%;
 
-        display: unset;
-      
-    } 
-    @media (max-width:320px) {margin: 0px;} 
-   
-    .skill1 {
-      .p1 {
-        padding-bottom: 20px;
-        font-size: 36px;
-        font-family: "微軟正黑體";
-        font-weight: bolder;
-        letter-spacing: 3px;
-  
-        @media (max-width:991px){
-            margin-left: 80px;
-        }
-        @media (max-width:320px){
-            margin-left:40% ;     
-         }
-      }
-      hr {
-        margin-bottom: 30px;
-        width: 150%;
-        border: 0px;
-        height: 2px;
-        background: rgb(163, 163, 163);
-        @media (max-width:1024px){
-          width: 110%;
-        }
-        @media (max-width:991px){
-            width: 27%;
-            margin-left: 80px;
-        }
-        @media (max-width:576px){
-            width: 50%;
-        }
-      }
-      .cont1 {
-        padding-bottom: 10px;
-        font-size: 36px;
-        font-family: "微軟正黑體";
-        letter-spacing: 3px;
-        @media (max-width:991px){
-            margin-left: 80px;
-        }
-        @media (max-width:320px){
-            margin-left:10% ;     
-         }
-      }
-      .cont2{ margin-left: 0px;
-          @media (max-width:991px){ 
-         margin-left:80px ;     }
-      }
-    
-    }
-    .skill2 {
-      margin: 74px 250px;
-      @media (max-width:1024px){
-        margin: 74px 80px;
-      }
- @media (max-width:991px){
-   margin: 40px 80px;
-  }
-      hr {
-        margin-bottom: 30px;
-        width: 120%;
-        border: 0px;
-        height: 2px;
-        background: rgb(163, 163, 163);
-        @media (max-width:991px){
-            width: 33%;
-            margin-left:0 ;
-        }
-        @media (max-width:576px){
-            width: 60%;
-        }
-        @media (max-width:320px){
-          width: 110%;
-      }
-      }
-      .cont1 {
-        padding-bottom: 10px;
-        font-size: 36px;
-        font-family: "微軟正黑體";
-        letter-spacing: 3px;
-        @media (max-width:991px){
-         
-        }
-        @media (max-width:576px){
-            display: none;
-        }
-        @media (max-width:320px){
-            display: none;
-    
-         }
-      }
-      .cont1-1 {
-        @media (max-width:320px){
-            margin-left:-20% ;
-    
-         }
-          .aa{ font-size: 36px;
-            font-family: "微軟正黑體";
-         
-            letter-spacing: 3px;}
-      }
-    }
-    .skill3 {
-      margin: 74px 0;
-      @media (max-width:991px){
-         
-          margin: 50px 80px;
-      }
-      @media (max-width:576px){
-      //  margin-left:80px ;
-        margin: 50px 80px;
-    }
-      @media (max-width:320px){
-       
-        margin: 50px 0;
-      }
-      hr {
-        margin-bottom: 30px;
-        width: 120%;
-        border: 0px;
-        height: 2px;
-        background: rgb(163, 163, 163);
-        @media (max-width:991px){
-            width: 30%;
-            margin-left:0 ;
-        }
-        @media (max-width:576px){
-            width: 60%;
-        }
-        @media (max-width:320px){
-          width: 50%;
-            margin-left:27%;
+  .container{
+      max-width: 1200px;
+
+      .allskill {
+          @media screen and (max-width:1024px) {
+              padding:0 50px
           }
-      }
-      .cont1 {
-        padding-bottom: 10px;
-        font-size: 36px;
-        font-family: "微軟正黑體";
-        letter-spacing: 3px;
-        @media (max-width:320px){
-            margin-left:20%;
+          @media screen and (max-width:414px) {
+              padding:0 20px
           }
+          .skill1 {
+              padding-top: 50px;
+
+              .p1 {
+                  margin-bottom: 60px;
+                  font-weight: bolder;
+              }
+
+
+              .cont1 {
+                  padding-bottom: 10px;
+              }
+
+              .p1-line {
+                  position: relative;
+              }
+
+              .p1-line::after {
+                  content: '';
+                  border-top: 2px solid #a3a3a3;
+                  padding-left: 300px;
+                  position: absolute;
+                  left: 0;
+                  top: -34px;
+                  @media screen and (max-width:1024px) {
+                      padding-left: 260px; 
+                  }
+              }
+          }
+
+          .skill2 {
+              padding-top: 160px;
+              @media screen and (max-width:768px) {
+                  padding-top: 100px; 
+              }
+              .cont1 {
+                  padding-bottom: 10px;
+                  padding: 0;
+              }
+
+              .sk2-line {
+                  position: relative;
+              }
+
+              .sk2-line::before {
+                  content: '';
+                  border-top: 2px solid #a3a3a3;
+                  padding-left: 300px;
+                  position: absolute;
+                  left: 0;
+                  top: -30px;
+                  @media screen and (max-width:1024px) {
+                      padding-left: 260px; 
+                  }
+              }
+
+          }
+
+          .skill3 {
+              padding-top: 160px;
+              @media screen and (max-width:768px) {
+                  padding-top: 100px; 
+              }
+              .cont1 {
+                  padding-bottom: 10px;
+              }
+
+              .sk3-line {
+                  position: relative;
+              }
+
+              .sk3-line::before {
+                  content: '';
+                  border-top: 2px solid #a3a3a3;
+                  padding-left: 300px;
+                  position: absolute;
+                  left: 0;
+                  top: -30px;
+                  @media screen and (max-width:1024px) {
+                      padding-left: 260px; 
+                  }
+              }
+          }
+
       }
-    }
   }
 }
+
+
+
+
 #pag03 {
-  margin-bottom: 50px;
-  .exp {
-    margin-left: 70px;
-    margin-bottom: 30px;
-    font-size: 36px;
-    font-family: "微軟正黑體";
-    font-weight: bolder;
-    letter-spacing: 3px;
-   
-  }
-  .img3 {
-    width: 30px;
-    @media (max-width:768px){
-      width: 38px;
-  }
-    @media (max-width:576px){
-        width: 63px;
-    }
-    @media (max-width:414px){
-      width: 125px;
-  }
-    @media (max-width:375px){
-      width: 160px;
-   
-  }
-    @media (max-width:320px){
-  display: none;
-    }
-    img {
-      width: 100%;
-    }
-  }
-  .work {
-    display: flex;
-    margin-left: 65px;
-    @media (max-width:768px){
-      margin-left: 0;
-    }
-    @media (max-width:414px){
-      margin-left: 0;
-        }
-    @media (max-width:375px){
-      margin-left: 0;
-        }
-    @media (max-width:320px){
-        margin-left: 10%;
+  margin-bottom: 5%;
+
+  .container {
+      max-width: 1200px;
+      @media screen and (max-width:1024px) {
+          padding:0 60px
+      }
+      .exp {
+          margin-bottom: 30px;
+          font-size: 36px;
+          font-family: "微軟正黑體";
+          font-weight: bolder;
+          letter-spacing: 3px;
+
+      }
+
+      .work {
+          display: flex;
+
+          .w {
+              font-size: 24px;
+              font-family: "微軟正黑體";
+              letter-spacing: 3px;
           }
-    .w {
-      font-size: 24px;
-      font-family: "微軟正黑體";
-      letter-spacing: 3px;
-    }
-    .wo {
-      margin-left: 20px;
-      .w1 {
-        margin-bottom: 45px;
+
+          .wo {
+              position: relative;
+              margin-left: 5%;
+              @media screen and (max-width:1024px) {
+                  margin-left: 7%;
+              }
+              @media screen and (max-width:768px) {
+                  margin-left: 10%;
+              }
+              @media screen and (max-width:320px) {
+                  margin-left: 15%;
+              }
+              .w1 {
+                  margin-bottom: 45px;
+              }
+
+              .w2 {
+                  margin-bottom: 45px;
+              }
+          }
+
+          .wo::before {
+              content: '';
+              width: 200px;
+              height: 200px;
+              background-image: url('./img/sec3.png');
+              background-repeat: no-repeat;
+              background-size: contain;
+              position: absolute;
+              left: -55px;
+              top: 0;
+              @media screen and (max-width:1024px) {
+                  left: -60px; 
+              }
+              @media screen and (max-width:1024px) {
+                  height: 270px;
+              }
+              @media screen and (max-width:414px) {
+                  height: 380px;
+              }
+              @media screen and (max-width:375px) {
+                  height: 415px;
+              }
+              @media screen and (max-width:320px) {
+                  width: 54px;
+                  height: 493px;
+                  left:-74px;
+              }
+          }
       }
-      .w2 {
-        margin-bottom: 45px;
-      }
-    }
   }
 }
+
+
+
 
 #pag04 {
-  margin-bottom: 50px;
-  .p1 {
-    margin-left: 60px;
-    margin-bottom: 30px;
-    font-size: 36px;
-    font-family: "微軟正黑體";
-    font-weight: bolder;
-    letter-spacing: 3px;
-    @media (max-width:320px){
-        margin-left:40%;
+  margin-bottom: 5%;
+
+  .container {
+      max-width: 1200px;
+      @media screen and (max-width:1024px) {
+          padding: 0 60px;
+      }
+      @media screen and (max-width:320px) {
+          padding: 0 30px;
+      }
+      .p1 {
+          margin-bottom: 30px;
+          font-weight: 900;
+          letter-spacing: 3px;
+      }
+
+      hr {
+          margin: 0;
+          margin-bottom: 30px;
+          width: 90%;
+          border: 0px;
+          height: 2px;
+          background: rgb(163, 163, 163);
+          @media screen and (max-width:768px) {
+              width: 100%;
           }
-  }
-  hr {
-    margin: 0;
-    margin-left: 60px;
-    margin-bottom: 30px;
-    width: 90%;
-    border: 0px;
-    height: 2px;
-    background: rgb(163, 163, 163);
-    @media (max-width:576px){
-        width: 50%;
-    }
-    @media (max-width:320px){
-        margin-left:30%;
+      }
+
+      .L {
+          font-size: 24px;
+          font-family: "微軟正黑體";
+          @media screen and (max-width:768px) {
+              font-size: 22px;
           }
-  }
-  .L {
-    margin-left: 60px;
-    font-size: 24px;
-    font-family: "微軟正黑體";
-    @media (max-width:320px){
-      padding: 0;
-      margin-left:48px;
-        }
+      }
   }
 }
+
 #pag05 {
-  margin-bottom: 50px;
-  .p1 {
-    margin-left: 60px;
-    margin-bottom: 30px;
-    font-size: 36px;
-    font-family: "微軟正黑體";
-    font-weight: bolder;
-    letter-spacing: 3px;
-    @media (max-width:320px){
-        margin-left:40%;
-          }
-  }
-  hr {
-    margin: 0;
-    margin-left: 60px;
-    margin-bottom: 30px;
-    width: 90%;
-    border: 0px;
-    height: 2px;
-    background: rgb(163, 163, 163);
-    @media (max-width:576px){
-        width: 50%;
-    }
-    @media (max-width:320px){
-        margin-left:30%;
-          }
-  }
+  margin-bottom: 5%;
 
-  .ss {
-    padding: 20px 50px;
-    @media (max-width:320px){
-        padding: 0;
-        margin-left:10%  ;
-          }
-          p{
-           text-align: justify;
-            font-family: '微軟正黑體';}
-  }
+  .container {
+      max-width: 1200px;
 
+      @media screen and (max-width:1024px) {
+          padding:0 60px
+      }
+      @media screen and (max-width:320px) {
+          padding:0 30px
+      }
+      .p1 {
+          font-weight: 900;
+          margin-bottom: 30px;
+      }
+
+      hr {
+          margin: 0;
+          margin-bottom: 30px;
+          width: 90%;
+          border: 0px;
+          height: 2px;
+          background: rgb(163, 163, 163);
+          @media screen and (max-width:768px) {
+              width: 100%;
+          }
+      }
+      p {
+          padding-right: 115px;
+          text-indent: 35px;
+          text-align: justify;
+          font-family: '微軟正黑體';
+          letter-spacing: 1px;
+          line-height: 30px;
+          @media screen and (max-width:768px) {
+              padding-right: 66px;
+     font-size: 20px;
+          }
+          @media screen and (max-width:640px) {
+              padding-right: 58px;
+          }
+          @media screen and (max-width:414px) {
+              padding-right: 7px;
+
+          }
+   
+      }
+  }
 }
-#pag06 {
-  margin-bottom: 50px;
 
+
+#pag06 {
+  overflow: hidden;
+  margin-bottom: 50px;
+.container{
+max-width: 1200px;
+@media screen and (max-width:1024px) {
+  padding:0 60px
+}
+.row-01{
+  margin-bottom: 2%;
+}
   .p1 {
-    margin-left: 60px;
+  
     margin-bottom: 30px;
-    font-size: 36px;
-    font-family: "微軟正黑體";
     font-weight: bolder;
     letter-spacing: 3px;
 
-    @media (max-width:576px){
-      margin-bottom: 20px;
-    }
-    @media (max-width:320px){
-      margin-left:90px ;
-    }
   }
+
   hr {
     margin: 0;
-    margin-left: 60px;
+
     margin-bottom: 30px;
     width: 90%;
     border: 0px;
     height: 2px;
     background: rgb(163, 163, 163);
-    @media (max-width:576px){
-        width: 50%;
+
+      width: 90%;
     }
-    @media (max-width:320px){
-      margin-left: 76px;
-    }
-  }
+
+
+
 
   .pit {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-   
+
     .b1 {
       width: 500px;
+
       img {
         width: 100%;
       }
-     
+
     }
+    .b2 {
+      width: 370px;
+      @media screen and (max-width:1024px){
+          width: 280px;
+        }
+        @media screen and (max-width:768px){
+          width: 660px;
+        }
+        @media screen and (max-width:640px){
+          width: 580px;
+        }
+        @media screen and (max-width:414px){
+          width: 300px;
+        }
 
-    // .b2 {
-    //   cursor: pointer;
-    //   width: 500px;
+      img {
+        width: 100%;
+      }
 
-    //   img {
-    //     width: 100%;
-    //   }
-    // }
-    // .b3 {
-    //   width: 500px;
-    //   img {
-    //     width: 100%;
-    //   }
-    // }
-    // .b4 {
-    //   cursor: pointer;
-    //     width: 500px;
-    //     img {
-    //       width: 100%;
-    //     }
-    //   }
-    //   .b5 {
-    //     width: 500px;
-    //     img {
-    //       width: 100%;
-    //     }
-    //   }
-    //   .b6 {
-    //     width: 500px;
-    //     img {
-    //       width: 100%;
-    //     }
-    //   }
+    }
   }
+} 
 }
