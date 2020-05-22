@@ -294,7 +294,13 @@ hr.style1 {
 
 @media screen and (max-width: 1024px) {
   #pag03 .container .work .wo::before {
-    height: 270px;
+    height: 193px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #pag03 .container .work .wo::before {
+    height: 265px;
   }
 }
 
